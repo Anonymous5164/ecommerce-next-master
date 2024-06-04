@@ -1,0 +1,24 @@
+
+
+.root{
+    @apply inset-0 flex flex-row items-start md:py-6 ;
+    
+}
+
+.link{
+    @apply text-accents-6 leading-6 font-medium duration-100;
+    &:hover{
+        @apply text-accents-9 tracking-wider translate-x-1 ;
+    }
+}
+
+.logo{
+    @apply text-2xl font-bold font-mono;
+    &:hover{
+        @apply scale-110 transition-transform duration-150 ;
+    }
+}
+
+.left{
+    @apply flex justify-around py-1 ml-12 space-x-7;
+}
